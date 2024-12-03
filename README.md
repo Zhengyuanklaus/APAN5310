@@ -2,7 +2,7 @@
 
 ## Overview
 
-Dream Homes NYC is a real estate agency serving the Tri-State area (New York, New Jersey, and Connecticut) with multiple regional offices. The company facilitates property transactions, including buying, selling, and renting single-family homes, townhouses, and apartments.The project aims to design and implement a database that addresses current business needs and supports future data analysis and application development. The leadership envisions this system as a foundation for efficient data management and data-driven decision-making to fuel business growth.
+Dream Homes NYC is a real estate agency with multiple regional offices serving the Tri-State area (New York, New Jersey, and Connecticut). The company facilitates property transactions, including buying, selling, and renting single-family homes, townhouses, and apartments. The project aims to design and implement a database that addresses current business needs and supports future data analysis and application development. The leadership envisions this system as a foundation for efficient data management and data-driven decision-making to fuel business growth.
 
 ## Technologies Used
 
@@ -15,16 +15,17 @@ Dream Homes NYC is a real estate agency serving the Tri-State area (New York, Ne
 The project consists of the following components:
 
 1. **Data ETL process**
-   - Utilizes Python scripts to extract data from CSV files.
-   - Transforms the data into Pandas DataFrames for processing.
+   - Utilize Python scripts to extract data from Excel files.
+   - Transform the data into Pandas DataFrames for processing.
+   - Load transformed data into PostgreSQL tables within a defined schema.
 
 2. **Database Management**
-   - Loads transformed data into PostgreSQL tables within a defined schema.
-   - Ensures data integrity and enables efficient data retrieval.
+   - Create a correct and appropriate schema.
+   - Ensure data integrity and enable efficient data retrieval.
 
 3. **Data Visualization**
-   - Employs Metabase for creating dashboards and visual reports for C-level executives.
-   - Provides insights into property listings, transactions, and client interactions.
+   - Employ Metabase to create dashboards and visual reports for C-level executives.
+   - Provide insights into property listings, transactions, and client interactions.
 
 ## Getting Started
 
